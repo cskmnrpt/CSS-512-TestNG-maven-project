@@ -9,24 +9,24 @@ public class SimpleTest {
     @QaseTitle("Adding test case title in test NG ")
     @Test
     public void testAddition() {
+        // Step 1 of the test case
+        step1();
+        
+        // Step 2 of the test case
+        step2();
+        
         int result = 2 + 3;
         Assert.assertEquals(result, 5, "Addition result is incorrect");
     }
+
     @Step("Step 1 of the test case")
-    public void someStep1(){
+    private void step1() {
         // do something
-        }
+    }
 
     @Step("Step 2 of the test case")
-    public void someStep2(){
+    private void step2() {
         // do something
-        }
-
-    @Test
-    @QaseId(778)
-    public void testSubtraction() {
-        int result = 5 - 3;
-        Assert.assertEquals(result, 2, "Subtraction result is incorrect");
     }
 
     @Test

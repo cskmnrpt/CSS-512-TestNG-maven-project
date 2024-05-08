@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.91" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.466" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="QASE_API_TOKEN" value="b45e559f1709f1c61454cd43caacef762a27b278f73f79b059ed7a1d9a12bafc"/>
     <property name="java.specification.version" value="17"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/root/qase/testng/testng/target/surefire/surefirebooter11664875995545160485.jar /root/qase/testng/testng/target/surefire 2024-05-08T17-04-43_951-jvmRun1 surefire483410679770502793tmp surefire_09392058821786413365tmp"/>
+    <property name="sun.java.command" value="/root/qase/testng/testng/target/surefire/surefirebooter4246085166792016901.jar /root/qase/testng/testng/target/surefire 2024-05-08T17-26-28_671-jvmRun1 surefire3760520631277893381tmp surefire_011220541647753792136tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/root/qase/testng/testng/target/test-classes:/root/qase/testng/testng/target/classes:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/io/qase/qase-testng/3.2.0/qase-testng-3.2.0.jar:/root/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/io/qase/qase-api/3.2.0/qase-api-3.2.0.jar:/root/.m2/repository/org/openapitools/jackson-databind-nullable/0.2.4/jackson-databind-nullable-0.2.4.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0-rc2/jackson-databind-2.14.0-rc2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0-rc2/jackson-annotations-2.14.0-rc2.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0-rc2/jackson-core-2.14.0-rc2.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/root/.m2/repository/io/swagger/swagger-annotations/1.6.8/swagger-annotations-1.6.8.jar:/root/.m2/repository/io/gsonfire/gson-fire/1.8.5/gson-fire-1.8.5.jar:/root/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/root/.m2/repository/com/squareup/okhttp3/logging-interceptor/4.10.0/logging-interceptor-4.10.0.jar:/root/.m2/repository/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar:/root/.m2/repository/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.31/kotlin-stdlib-common-1.5.31.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar:/root/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.10/kotlin-stdlib-jdk8-1.6.10.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.10/kotlin-stdlib-jdk7-1.6.10.jar:/root/.m2/repository/org/aspectj/aspectjrt/1.8.9/aspectjrt-1.8.9.jar:/root/.m2/repository/org/aeonbits/owner/owner-java8/1.0.12/owner-java8-1.0.12.jar:/root/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:/root/.m2/repository/com/konghq/unirest-java/3.4.00/unirest-java-3.4.00.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/root/.m2/repository/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.11/httpcore-nio-4.4.11.jar:/root/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar:/root/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/root/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/root/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/root/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/root/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/root/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="QASE_CLIENT_REPORTER_NAME" value="TestNG"/>
-    <property name="surefire.real.class.path" value="/root/qase/testng/testng/target/surefire/surefirebooter11664875995545160485.jar"/>
+    <property name="surefire.real.class.path" value="/root/qase/testng/testng/target/surefire/surefirebooter4246085166792016901.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+7-Debian-1deb12u1"/>
     <property name="user.name" value="root"/>
@@ -58,9 +58,8 @@
     <property name="QASE_ENABLE" value="true"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAddition" classname="SimpleTest" time="3.41"/>
+  <testcase name="testAddition" classname="SimpleTest" time="0.047"/>
   <testcase name="testDivision" classname="SimpleTest" time="0"/>
-  <testcase name="testMultiplication" classname="SimpleTest" time="0"/>
-  <testcase name="testSubtraction" classname="SimpleTest" time="0.001"/>
-  <testcase name="shouldAnswerWithTrue on shouldAnswerWithTrue(testng.AppTest)" classname="testng.AppTest" time="0.001"/>
+  <testcase name="testMultiplication" classname="SimpleTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue on shouldAnswerWithTrue(testng.AppTest)" classname="testng.AppTest" time="0.002"/>
 </testsuite>
