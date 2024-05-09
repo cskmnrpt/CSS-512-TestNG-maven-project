@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-08T17:26:31 IST" name="Surefire suite" finished-at="2024-05-08T17:26:36 IST" duration-ms="5038">
+  <suite started-at="2024-05-09T10:15:41 IST" name="Surefire suite" finished-at="2024-05-09T10:15:45 IST" duration-ms="3694">
     <groups>
     </groups>
-    <test started-at="2024-05-08T17:26:31 IST" name="Surefire test" finished-at="2024-05-08T17:26:36 IST" duration-ms="5038">
+    <test started-at="2024-05-09T10:15:41 IST" name="Surefire test" finished-at="2024-05-09T10:15:45 IST" duration-ms="3694">
+      <class name="ChainTest">
+        <test-method signature="Test01()[pri:0, instance:ChainTest@62452cc9]" started-at="2024-05-09T10:15:41 IST" name="Test01" finished-at="2024-05-09T10:15:44 IST" duration-ms="3578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01 -->
+      </class> <!-- ChainTest -->
       <class name="SimpleTest">
-        <test-method signature="testAddition()[pri:0, instance:SimpleTest@c5ee75e]" started-at="2024-05-08T17:26:31 IST" name="testAddition" finished-at="2024-05-08T17:26:36 IST" duration-ms="4924" status="PASS">
+        <test-method signature="testAddition()[pri:0, instance:SimpleTest@6941827a]" started-at="2024-05-09T10:15:45 IST" name="testAddition" finished-at="2024-05-09T10:15:45 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddition -->
-        <test-method signature="testDivision()[pri:0, instance:SimpleTest@c5ee75e]" started-at="2024-05-08T17:26:36 IST" name="testDivision" finished-at="2024-05-08T17:26:36 IST" duration-ms="1" status="PASS">
+        <test-method signature="testDivision()[pri:0, instance:SimpleTest@6941827a]" started-at="2024-05-09T10:15:45 IST" name="testDivision" finished-at="2024-05-09T10:15:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivision -->
-        <test-method signature="testMultiplication()[pri:0, instance:SimpleTest@c5ee75e]" started-at="2024-05-08T17:26:36 IST" name="testMultiplication" finished-at="2024-05-08T17:26:36 IST" duration-ms="1" status="PASS">
+        <test-method signature="testMultiplication()[pri:0, instance:SimpleTest@6941827a]" started-at="2024-05-09T10:15:45 IST" name="testMultiplication" finished-at="2024-05-09T10:15:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplication -->

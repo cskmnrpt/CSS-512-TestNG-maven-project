@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ChainTest" class="method navigator-link" hash-for-method="Test01">Test01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="SimpleTest" class="method navigator-link" hash-for-method="testAddition">testAddition</a> <!-- method navigator-link -->
@@ -127,6 +132,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ChainTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test01">
+                  </a> <!-- Test01 -->
+                  <span class="method-name">Test01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -167,6 +187,7 @@
 &lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;ChainTest&quot;/&gt;
       &lt;class name=&quot;SimpleTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
@@ -181,7 +202,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">Surefire test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,24 +228,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testAddition')
-data.setCell(0, 2, 'SimpleTest')
-data.setCell(0, 3, 4924);
+data.setCell(0, 1, 'Test01')
+data.setCell(0, 2, 'ChainTest')
+data.setCell(0, 3, 3578);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testMultiplication')
+data.setCell(1, 1, 'testAddition')
 data.setCell(1, 2, 'SimpleTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 3);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testDivision')
 data.setCell(2, 2, 'SimpleTest')
 data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMultiplication')
+data.setCell(3, 2, 'SimpleTest')
+data.setCell(3, 3, 1);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -250,18 +275,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">ChainTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test01</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">SimpleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testAddition</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">3614 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDivision</span>
-                <span class="method-start">4941 ms</span>
+                <span class="method-start">3618 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMultiplication</span>
-                <span class="method-start">4942 ms</span>
+                <span class="method-start">3619 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
